@@ -1,0 +1,13 @@
+CRITICAL - 2021-04-28 16:15:25 --> Call to undefined function App\Controllers\Admin\LoadView()
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Auth->index()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-28 16:16:26 --> Too few arguments to function App\Controllers\Admin\BaseController::loadView(), 1 passed in D:\wamp64\www\eshopper\app\Controllers\Admin\Auth.php on line 32 and at least 2 expected
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Auth.php(32): App\Controllers\Admin\BaseController->loadView('auth/login')
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Auth->index()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

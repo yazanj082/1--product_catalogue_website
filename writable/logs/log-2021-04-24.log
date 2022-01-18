@@ -1,0 +1,486 @@
+CRITICAL - 2021-04-24 11:28:38 --> Undefined property: App\Controllers\Admin\Products::$categories_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 119, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->edit('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:30:17 --> Undefined property: App\Controllers\Admin\Products::$categories_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:30:32 --> Undefined property: App\Controllers\Admin\Products::$categories_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:30:44 --> Undefined property: App\Controllers\Admin\Products::$categories_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:31:23 --> Undefined variable: product_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:31:42 --> Undefined variable: products_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:32:05 --> Undefined variable: products_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:32:38 --> Undefined variable: products_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 10, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(908): App\Controllers\Admin\Products->__construct()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:32:59 --> Undefined variable: products_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 11:33:43 --> Undefined variable: products_model
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 88, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->deleteRow('1')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 12:03:21 --> Class 'App\Controllers\Admin\CategoriesModel' not found
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(908): App\Controllers\Admin\Products->__construct()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 18:50:27 --> Undefined property: App\Controllers\Admin\Products::$load
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 10, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(908): App\Controllers\Admin\Products->__construct()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 18:52:08 --> Undefined property: App\Controllers\Admin\Products::$load
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 156, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 18:52:48 --> Undefined property: App\Controllers\Admin\Products::$load
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 147, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 18:55:36 --> Undefined property: App\Controllers\Admin\Products::$load
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 147, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 18:56:19 --> Cannot call constructor
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(908): App\Controllers\Admin\Products->__construct()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 18:57:34 --> Undefined property: App\Controllers\Admin\Products::$load
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 156, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:03:39 --> Array to string conversion
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\wamp64\\www\\e...', 148, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:04:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:06:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:07:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:08:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:08:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:11:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:12:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:13:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:14:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:17:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:18:35 --> Undefined variable: builder
+#0 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 83, Array)
+#1 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-24 19:19:11 --> Undefined variable: query
+#0 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 83, Array)
+#1 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-24 19:19:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::last_row()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:20:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:25:04 --> Call to a member function database() on null
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:26:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:27:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:30:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::order_by()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:32:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:32:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:32:27 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 89, Array)
+#1 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-24 19:32:45 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): App\Models\ProductsModel->lastId()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:33:04 --> A non-numeric value encountered
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\wamp64\\www\\e...', 148, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:34:45 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:36:48 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:39:04 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:39:20 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:40:59 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php on line 147 and exactly 1 expected
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(147): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:41:36 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:42:06 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:42:46 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:45:34 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:46:29 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:46:49 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:54:19 --> Undefined variable: request
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 147, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:54:29 --> Undefined variable: request
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 147, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-24 19:56:33 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:57:20 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-24 19:58:29 --> Call to a member function move() on null
+#0 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-04-24 20:03:33 --> mysqli_sql_exception: Column 'categorie_id' cannot be null in D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(159): App\Models\ProductsModel->add(Array)
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-24 20:03:33 --> Column 'categorie_id' cannot be null
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(159): App\Models\ProductsModel->add(Array)
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-24 20:14:17 --> Undefined property: App\Controllers\Admin\Products::$input
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\wamp64\\www\\e...', 156, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-24 20:16:55 --> mysqli_sql_exception: Column 'categorie_id' cannot be null in D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(160): App\Models\ProductsModel->add(Array)
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-24 20:16:55 --> Column 'categorie_id' cannot be null
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(160): App\Models\ProductsModel->add(Array)
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-04-24 20:20:14 --> mysqli_sql_exception: Column 'categorie_id' cannot be null in D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(160): App\Models\ProductsModel->add(Array)
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-24 20:20:14 --> Column 'categorie_id' cannot be null
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(160): App\Models\ProductsModel->add(Array)
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-24 20:20:39 --> fopen(http://eshopper.test/assets/images/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://es...', 'D:\\wamp64\\www\\e...', 186, Array)
+#1 D:\wamp64\www\eshopper\system\HTTP\Files\UploadedFile.php(186): fopen('http://eshopper...', 'x+')
+#2 D:\wamp64\www\eshopper\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://eshopper...')
+#3 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(164): CodeIgniter\HTTP\Files\UploadedFile->move('http://eshopper...', 'product2')
+#4 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->add()
+#5 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-24 20:46:33 --> Undefined variable: categorie_id
+#0 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\e...', 130, Array)
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->edit('11')
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

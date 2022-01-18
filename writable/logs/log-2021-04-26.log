@@ -1,0 +1,94 @@
+CRITICAL - 2021-04-26 14:18:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::wher()
+#0 D:\wamp64\www\eshopper\app\Controllers\Home.php(19): App\Models\ProductsModel->listSpecialOffers()
+#1 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-26 16:14:32 --> mysqli_sql_exception: Column 'order' in field list is ambiguous in D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `order`,...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order`,...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order`,...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `order`,...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\eshopper\app\Controllers\Home.php(25): App\Models\ProductsModel->getById('21')
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Home->product('21')
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-26 16:14:32 --> Column 'order' in field list is ambiguous
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `order`,...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order`,...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order`,...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `order`,...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\eshopper\app\Controllers\Home.php(25): App\Models\ProductsModel->getById('21')
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Home->product('21')
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-04-26 16:15:30 --> mysqli_sql_exception: Column 'order' in field list is ambiguous in D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `order`,...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order`,...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order`,...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `order`,...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(146): App\Models\ProductsModel->getById('19')
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->edit('19')
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-26 16:15:30 --> Column 'order' in field list is ambiguous
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `order`,...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order`,...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order`,...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `order`,...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(146): App\Models\ProductsModel->getById('19')
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->edit('19')
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-04-26 16:16:12 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(146): App\Models\ProductsModel->getById('19')
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->edit('19')
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-26 16:16:12 --> Column 'id' in where clause is ambiguous
+#0 D:\wamp64\www\eshopper\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 D:\wamp64\www\eshopper\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 D:\wamp64\www\eshopper\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 D:\wamp64\www\eshopper\app\Models\ProductsModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\eshopper\app\Controllers\Admin\Products.php(146): App\Models\ProductsModel->getById('19')
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Admin\Products->edit('19')
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-26 16:16:41 --> Undefined index: categories
+#0 D:\wamp64\www\eshopper\app\Views\site\layout.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\wamp64\\www\\e...', 90, Array)
+#1 D:\wamp64\www\eshopper\system\View\View.php(220): include('D:\\wamp64\\www\\e...')
+#2 D:\wamp64\www\eshopper\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\wamp64\www\eshopper\system\Common.php(1217): CodeIgniter\View\View->render('site/layout', Array, true)
+#4 D:\wamp64\www\eshopper\app\Controllers\BaseController.php(97): view('site/layout', Array)
+#5 D:\wamp64\www\eshopper\app\Controllers\Home.php(27): App\Controllers\BaseController->loadView('product', 'product', Array)
+#6 D:\wamp64\www\eshopper\system\CodeIgniter.php(936): App\Controllers\Home->product('21')
+#7 D:\wamp64\www\eshopper\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\wamp64\www\eshopper\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\eshopper\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
